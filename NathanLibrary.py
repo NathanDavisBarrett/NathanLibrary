@@ -3,12 +3,12 @@
 # but WITHOUT ANY WARRANTY; without even the implied warranty of               #
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                #
 # GNU General Public License for more details.                                 #
-# Version: 2021.1.0 (01/08/2021)                                               #
+# Version: 2021.1.1 (01/16/2021)                                               #
 #                                                                              #
 ######################### A NOTE TO MY FELLOW STUDENTS #########################
 # I've compiled all of the most usefull and/or important code that I've        #
 # written over the entire course of my time in the Chemical Engineering        #
-# program.  While this code can saved me a lot of time on the mundane parts    #
+# program.  While this code has saved me a lot of time on the mundane parts    #
 # of my learning, it was WRITING the code that taught me the most.             #
 #                                                                              #
 # For that reason I HIGHLY encourage you not to just copy and paste my code.   #
