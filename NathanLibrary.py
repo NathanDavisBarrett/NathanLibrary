@@ -21,6 +21,17 @@
 #                                                                              #
 # Good luck, and happy coding!                                                 #
 
+# A tip to consolidate your boilerplate:
+# Copy all of your import statements, functions, etc. that are nomrally in your
+# boilerplate into a seperate text file and change the file type from .txt to
+# .py.  Then copy that file into the same folder as the one your Jupyter
+# notbook is in.  Once you've done that, you can simply import the entire file
+# (with all of it's import statements, functions, etc. by using the command:
+#
+# from NameOfYourFile import *
+#
+# (Do not include the ".py" in your import statement)
+
 
 #----------------------------- IMPORTED LIBRARIES -----------------------------#
 import pint, colored, sys, warnings, copy
@@ -1120,7 +1131,7 @@ class graphAnalysis:
             answer.add(ser, self.readXY(*xySolved,self.series[ser]))
         return answer
 
-#SOLVER METHODS:------------------------------------------------------------------------------------
+#------------------------------- SOLVER METHODS -------------------------------#
 def graphError3D(solveFunc,param1Range,param2Range,res=30,args = ()):
     """
     Graphs a given two paramter Error function (like what would be passed into fsolve) and suggests where the solution could lie.
